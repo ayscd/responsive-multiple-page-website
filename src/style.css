@@ -7,30 +7,31 @@
 body {
   margin: 60px auto;
   max-width: 800px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
   text-align: center;
-  margin: 0;
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 14px;
+  margin-top: 15px;
 }
 
 h2 {
-  font-size: 48px;
-}
+  font-size: 60px;
+  margin-top: 120px;
+  font-weight: 500;
+} 
 
 h3 {
-  font-size: 24px;
+  font-size: 22px;
   opacity: 0.7;
 }
 
-h4 {
-  font-size: 24px;
+h4, h5 {
+  font-size: 18px;
   font-weight: 600;
 }
 
@@ -38,53 +39,55 @@ p {
   background: var(--secondary-color);
   padding: 20px;
   border-radius: 4px;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.5;
   text-align: center;
 }
 
 .navigation-links {
   display: flex;
-  margin-top: 40px;
+  margin-top: 50px;
   justify-content: center;
 }
 
 .navigation-links a {
-  margin: 20px;
+  margin: 5px 20px 40px 20px;
   border-radius: 4px;
-  padding: 20px 15px;
+  padding: 8px 10px;
   text-decoration: none;
-  text-transform: capitalize;
 }
 
-.app-links {
+.links {
   display: flex;
   margin-top: 10px;
 }
 
-.app-links a {
-  margin: 20px;
+.links, a {
   border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
+  padding: 5px 0px;
+  text-decoration: underline;
 }
 
-.contact-link {
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
+.arch-link, .tech-link, .design-link, .email-link {
+  font-size: 14px;
+  color: black;
+}
+
+
+
+.contact-link, .homepage-link {
+  font-size: 14px;
   color: white;
+  background: black;
+  box-shadow: var(--box-shadow);
 }
 
 .about-link {
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
-}
-
-.homepage-link {
-  color: var(--primary-color);
-  text-align: center;
-  display: block;
+  color: black;
+  border: 1px solid grey;
+  box-shadow: var(--box-shadow);
+  font-size: 14px;
+  background: white;  
 }
 
 .about-paragraphs {
@@ -96,12 +99,9 @@ p {
   margin: 10px;
 }
 
-.email-link {
+h5, .email-link {
   display: flex;
   justify-content: center;
-  color: var(--primary-color);
-  font-size: 28px;
-  text-decoration: none;
 }
 
 .email-link:hover {
