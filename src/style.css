@@ -12,8 +12,8 @@ body {
   background-color: var(--areia-suave);
   color: var(--carvao);
   display: block;
-  margin: 20px 20px;
-  padding: 20px;
+  margin: 5px 20px;
+  padding: 5px;
   max-width: 100%;
   font-family: Satoshi-Regular, monospace;
 }
@@ -44,6 +44,9 @@ h4, h5 {
   font-weight: 600;
 }
 
+hr {
+  color: var(--cinza-argila);
+}
 p {
   background: var(--secondary-color);
   padding: 20px;
@@ -62,6 +65,10 @@ p {
 
 .secondary-font {
   font-family: Satoshi-Regular, monospace;
+}
+
+.logo {
+  margin: 0px 0px 5px 0px;
 }
 
 .nav-links {
