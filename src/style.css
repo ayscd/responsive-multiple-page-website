@@ -1,5 +1,22 @@
+@import url('src/satoshi.css');
+
 :root {
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --areia-suave: rgb(232, 225, 215);
+  --cinza-argila: rgb(168, 162, 158);
+  --carvao: rgb(28, 28, 26);
+  --terracota: rgb(154, 96, 64);
+}
+
+.primary-font {
+  font-family: "Cormorant Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.secondary-font {
+  font-family: Satoshi-Light;
 }
 
 
