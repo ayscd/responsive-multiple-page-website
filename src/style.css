@@ -15,7 +15,7 @@ body {
   margin: 5px 20px;
   padding: 5px;
   max-width: 100%;
-  font-family: Satoshi-Regular, monospace;
+  font-family: "Google Sans Code", monospace
 }
 
 h1, h2, h3 {
@@ -30,12 +30,12 @@ h1 {
 
 h2 {
   font-size: 70px;
-  margin-top: 80px;
+  margin-top: 50px;
   font-weight: 500;
 } 
 
 h3 {
-  font-size: 19px;
+  font-size: 17px;
   opacity: 0.7;
 }
 
@@ -48,7 +48,7 @@ hr {
   color: var(--cinza-argila);
 }
 p {
-  background: var(--secondary-color);
+  background: var(--cinza-argila);
   padding: 20px;
   border-radius: 4px;
   font-size: 14px;
@@ -63,8 +63,15 @@ p {
   font-style: normal;
 }
 
-.secondary-font {
+/* .secondary-font {
   font-family: Satoshi-Regular, monospace;
+} */
+
+.secondary-font {
+  font-family: "Google Sans Code", monospace;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .logo {
@@ -88,33 +95,26 @@ p {
 }
 
 .links, a {
-  border-radius: 4px;
   padding: 5px 0px;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .arch-link, .tech-link, .design-link, .email-link {
   font-size: 14px;
-  color: black;
+  color: var(--carvao);
+}
+
+.arch-link:hover, .tech-link:hover, .design-link:hover, .email-link:hover {
+  font-size: 14px;
+  transition: 0.3ms;
+  color: var(--terracota);
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .paragraph {
   text-align: justify;
-}
-
-.contact-link, .homepage-link {
-  font-size: 14px;
-  color: white;
-  background: black;
-  box-shadow: var(--box-shadow);
-}
-
-.about-link {
-  color: black;
-  border: 1px solid grey;
-  box-shadow: var(--box-shadow);
-  font-size: 14px;
-  background: white;  
+  margin-right: 15px;
 }
 
 .boxes {
@@ -127,7 +127,7 @@ p {
 }
 
 .box-left, .box-right {
-  background-color:rgba(221, 221, 221, 0.3);
+  background-color: var(--cinza-argila);
 }
 
 .about-paragraphs p {
