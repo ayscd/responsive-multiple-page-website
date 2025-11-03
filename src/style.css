@@ -40,7 +40,7 @@ h3 {
   opacity: 0.7;
 }
 
-h4, h5 {
+h4 {
   font-size: 18px;
   font-weight: 600;
 }
@@ -48,14 +48,14 @@ h4, h5 {
 hr {
   color: var(--cinza-argila);
 }
-p {
-  background: var(--cinza-argila);
+
+/* p {
   padding: 20px;
   border-radius: 4px;
   font-size: 14px;
   line-height: 1.5;
   text-align: center;
-}
+} */
 
 .primary-font {
   font-family: "Cormorant Garamond", serif;
@@ -96,17 +96,45 @@ p {
   text-decoration: none;
 }
 
-.arch-link, .tech-link, .design-link, .email-link {
+.arch-link, .tech-link, .design-link, .email-link, .icons-link {
   font-size: 14px;
   color: var(--carvao);
 }
 
-.arch-link:hover, .tech-link:hover, .design-link:hover, .email-link:hover {
+.arch-link:hover, .tech-link:hover, .design-link:hover, .email-link:hover, .icons-link:hover {
   font-size: 14px;
   transition: 0.3ms;
   color: var(--terracota);
   cursor: pointer;
   text-decoration: underline;
+}
+
+.footer {
+  margin-top: 100px;
+  display: block;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.footer-line-1 {
+  font-size: 12px;
+}
+
+.footer-line-2 {
+  margin-top: 50px;
+  font-size: 12px;
+}
+
+.footer-link {
+  color: var(--terracota);
+  text-decoration: underline;
+}
+
+.footer-link:hover {
+  transition: 0.3ms;
+  color: var(--carvao);
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .paragraph {
