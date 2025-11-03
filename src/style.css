@@ -113,16 +113,3 @@ p {
   text-align: justify;
   margin-right: 15px;
 }
-
-.about-paragraphs p {
-  margin: 10px;
-}
-
-h5, .email-link {
-  display: flex;
-  justify-content: center;
-}
-
-.email-link:hover {
-  text-decoration: underline;
-}
